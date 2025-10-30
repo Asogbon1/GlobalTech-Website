@@ -1,7 +1,7 @@
 # GlobalTech World Computer Training Institute
 
 A Computer Training institute for training students and professinals tech related courses.  
-Built with **HTML**, **CSS**, **PHP**, and **MySQL**.
+Built with **HTML5**, **CSS**, **PHP**, and **MySQL**.
 
 ## 📂 Folder Structure
 - `assets/` → Styles, scripts, and media files  
