@@ -1,0 +1,8 @@
+/uploads/
+/database/*.sql
+.env
+.DS_Store
+node_modules/
+.vscode/
+*.log
+
