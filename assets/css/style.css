@@ -1,1 +1,588 @@
- 
+/* === GlobalTech: Index Page Styles Begin === */
+
+       :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --dark-color: #000000;
+            --light-color: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #212529;
+        }
+        
+        /* Navbar */
+        .navbar {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #212529 !important;
+        }
+        
+        .logo-icon {
+            width: 180px;
+            height: 50px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            margin-top: -8px;
+        }
+        
+        .navbar-nav .nav-link {
+            margin-top: 12px;
+            color: #495057;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: var(--primary-color);
+        }
+        
+        .nav-item .btn-sm {
+           margin-top: -15px;
+        }
+
+        .ms-lg-2 {
+            margin-top: 4px;
+        }
+
+        /* Hero Carousel */
+        .hero-carousel {
+            height: 600px;
+            position: relative;
+        }
+        
+        .hero-carousel .carousel-item {
+            height: 600px;
+        }
+        
+        .hero-carousel .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            text-align: center;
+            color: white;
+            width: 90%;
+            max-width: 900px;
+        }
+        
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-content p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+        
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 1;
+        }
+        
+        .carousel-control-prev {
+            left: 20px;
+        }
+        
+        .carousel-control-next {
+            right: 20px;
+        }
+        
+        .carousel-indicators {
+            z-index: 3;
+        }
+        
+        .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .carousel-indicators button.active {
+            width: 32px;
+            border-radius: 6px;
+            background-color: white;
+        }
+        
+        /* Buttons */
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+            transform: translateY(-2px);
+        }
+        
+        .btn-outline-light {
+            border: 2px solid white;
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 6px;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(4px);
+            transition: all 0.3s;
+        }
+        
+        .btn-outline-light:hover {
+            background-color: white;
+            color: #212529;
+        }
+        
+        /* Stats Section */
+        .stats-section {
+            padding: 4rem 0;
+            background-color: white;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .stat-icon {
+            width: 64px;
+            height: 64px;
+            background-color: rgba(0, 123, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+        }
+        
+        .stat-icon i {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 1rem;
+        }
+        
+        /* Sections */
+        .section {
+            padding: 5rem 0;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: #6c757d;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.feature-card {
+  background-color: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.feature-icon i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.feature-card h5 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+        /* Course Cards */
+        .course-card {
+            background-color: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 100%;
+            transition: all 0.3s;
+        }
+        
+        .course-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            transform: translateY(-8px);
+        }
+        
+        .course-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .course-body {
+            padding: 1.5rem;
+        }
+        
+        .course-badge {
+            display: inline-block;
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+        
+        .course-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        /* Testimonial Cards */
+        .testimonial-card {
+            background-color: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 2rem;
+            height: 100%;
+            transition: all 0.3s;
+        }
+        
+        .testimonial-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+        }
+        
+        .stars {
+            color: #ffc107;
+            margin-bottom: 1rem;
+        }
+        
+        .testimonial-text {
+            color: #6c757d;
+            font-style: italic;
+            margin-top: 1rem;
+        }
+
+       /* Online Classes Banner */
+        .online-classes-banner {
+            background-color: #007bff; 
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+        }
+
+        .online-classes-banner .video-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .online-classes-banner h2 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        }
+
+        .online-classes-banner p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+
+        .online-classes-banner .btn-outline-light {
+            border-color: white;
+            color: #007bff;
+            background-color: white;
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .online-classes-banner .btn-outline-light:hover {
+            background-color: #e6e6e6;
+            color: #0056b3;
+        }
+
+        
+        /* Footer */
+        footer {
+            background-color: white;
+            color: black;
+            padding: 3rem 0 1.5rem;
+        }
+
+        .footer-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+             align-items: flex-start;
+        }
+        
+        .mb-2 p{
+            font-size: 14px;
+            margin-left: 32px;
+            margin-top: -25px;
+        }
+
+        footer h5 {
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        footer p, footer a {
+            color: black;
+            font-size: 0.9rem;
+        }
+
+        .me-2{
+            color: #007bff;
+        }
+        
+        footer a {
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        footer a:hover {
+            color: rgb(122, 121, 121);
+        }
+        
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        footer ul li {
+            margin-bottom: 0.75rem;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            color: #007bff;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            margin-right: 0.5rem;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+        
+        /* Fixed Buttons */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            margin-right: -5px;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(255, 252, 252, 0.2);
+        }
+        
+        .whatsapp-btn i {
+            font-size: 1.75rem;
+            color: white;
+        }
+        
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 96px;
+            right: 24px;
+            width: 48px;
+            height: 48px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+        }
+        
+        .scroll-top-btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .scroll-top-btn i {
+            font-size: 1.25rem;
+            color: white;
+        }
+        
+        .scroll-top-btn.show {
+            display: flex;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-carousel,
+            .hero-carousel .carousel-item {
+                height: 500px;
+            }
+            
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-content p {
+                font-size: 1rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+            
+            .online-classes-banner h2 {
+                font-size: 2rem;
+            }
+            
+            .online-classes-banner p {
+                font-size: 1rem;
+            }
+        }
+    
+
+        /* ===   tawk.ai  ===  */
+        iframe[src*="tawk.to"] {
+             height: 200px !important;
+             max-height: 200px !important;
+        }
+        #tawkchat-minified {
+            height: 60px !important;
+            
+        }
+
+
+
+  /* === GlobalTech: Index Page Styles End === */
