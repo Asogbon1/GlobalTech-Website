@@ -467,6 +467,11 @@ footer .d-flex.gap-3 a:hover {
   color: #0056b3; /* darker blue on hover */
 }
 
+.star {
+    color: #007bff;
+}
+
+
 
 @media (max-width: 767px) {
     footer {
