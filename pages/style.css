@@ -1,0 +1,33 @@
+ 
+ .login-card {
+      max-width: 400px;
+      margin: 60px auto;
+      background: #f7f9fa;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-top: 12px;
+ }
+ footer {
+      background-color: #f7f9fa;
+      padding: 40px 0;
+      border-top: 1px solid #ddd;
+    }
+    footer a {
+      text-decoration: none;
+      transition: color 0.3s ease;
+      color: #948c8c;
+    }
+    footer a:hover {
+      /*text-decoration: underline;*/
+      color: #10161d;
+
+    }
+    footer p{
+        color: #948c8c;
+    }
+     .social-icons a {
+      margin-right: 10px;
+      color: #007bff;
+      font-size: 20px;
+    }
