@@ -30,6 +30,7 @@ body {
     color: #212529 !important;
 }
 
+
 .logo-icon {
     width: 180px;
     height: 50px;
@@ -250,7 +251,6 @@ body {
     border-radius: 8px;
     padding: 1.5rem;
     height: 100%;
-    margin-bottom: 1rem;
     transition: all 0.3s;
 }
 
@@ -288,84 +288,74 @@ body {
 
 /* Course Cards */
 .course-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 15px;
-  height: 100%;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  margin-bottom: 1.5rem; /* Adds space below each card */
-}
-
-.course-img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-.course-body h5 {
-  font-size: 1rem;
-  margin-top: 10px;
-}
-
-.course-body p {
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
-
-.course-badge {
-  display: inline-block;
-  font-size: 0.75rem;
-  padding: 4px 8px;
-  background-color: #f0f0f0;
-  border-radius: 4px;
-  margin-top: 5px;
-}
-
-.course-price {
-  font-weight: bold;
-  font-size: 0.9rem;
+    background-color: white;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    transition: all 0.3s;
 }
 
 .course-card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  transform: translateY(-8px);
-}
-/* Testimonial Cards */
-.testimonial-card {
-  background-color: white;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 1.25rem;
-  height: 100%;
-  transition: all 0.3s;
-  font-size: 0.9rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-8px);
 }
 
-.testimonial-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-4px);
+.course-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.stars {
-  color: #ffc107;
-  font-size: 0.9rem;
-}
-
-.testimonial-text {
-  color: #6c757d;
-  font-style: italic;
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
+.course-body {
+    padding: 1.5rem;
 }
 
 .course-badge {
-  display: inline-block;
-  font-size: 0.75rem;
-  background-color: #007bff;
-  padding: 3px 8px;
-  border-radius: 4px;
-  color: white;
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.course-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.chevron-icon {
+    font-size: 14px;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+    background-color: white;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 2rem;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+
+.stars {
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+.testimonial-text {
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 1rem;
 }
 
 /* Online Classes Banner */
@@ -375,7 +365,7 @@ body {
     padding: 4rem 0;
     text-align: center;
     font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-    margin-bottom: -50px    ;
+    margin-bottom: -50px;
 }
 
 .online-classes-banner .video-icon {
@@ -414,7 +404,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #f8f8f8;
+    background-color: #f8f9fa;
     color: black;
     padding: 3rem 0 1.5rem;
 }
@@ -469,14 +459,16 @@ footer ul li {
 
 footer .social-links a,
 footer .d-flex.gap-3 a {
-  color: #007bff; /* Bootstrap blue */
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+    color: #007bff;
+    /* Bootstrap blue */
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
 footer .social-links a:hover,
 footer .d-flex.gap-3 a:hover {
-  color: #0056b3; /* darker blue on hover */
+    color: #0056b3;
+    /* darker blue on hover */
 }
 
 .star {
@@ -637,215 +629,72 @@ footer .d-flex.gap-3 a:hover {
 }
 
 
-/* 🎄 Holiday Promo Section */
-.holiday-promo-section {
-  background: linear-gradient(135deg, var(--primary-color) 60%, #000 100%);
-  color: #fff;
-  padding: 60px 20px;
-  margin: 60px auto;
-  position: relative;
-  overflow: hidden;
+/* ===   tawk.ai  ===  */
+iframe[src*="tawk.to"] {
+    height: 200px !important;
+    max-height: 200px !important;
 }
 
-.promo-card {
-  backdrop-filter: blur(8px);
-  padding: 40px 30px;
-}
+#tawkchat-minified {
+    height: 60px !important;
 
-.promo-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.promo-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 15px;
-}
-
-.promo-title .highlight {
-  color: white; /* Adjust if your primary color differs */
-  margin-left: -43px;
-}
-
-.promo-description {
-  font-size: 1.1rem;
-  color: #f8f8f8;
-  line-height: 1.6;
-}
-
-.offer-end {
-  color: orange;
-  font-weight: 600;
-}
-
-.promo-btn {
-  margin-top: 20px;
-  background: #fff;
-  color: #000;
-  font-weight: 600;
-  /* border-radius: 30px; */
-  padding: 10px 28px;
-  transition: all 0.3s ease;
-}
-
-.promo-btn:hover {
-  background: #00a8ff;
-  color: #fff;
-  transform: scale(1.05);
-}
-
-.promo-image {
-  max-width: 180px;
-  animation: float 4s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-/* Snowflake icon floating */
-.holiday-promo-section::after {
-  content: "\f2dc";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  color: #fff;
-  opacity: 0.2;
-  font-size: 40px;
-  animation: rotateSnow 10s linear infinite;
-}
-
-@keyframes rotateSnow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .promo-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .promo-image {
-    margin-top: 30px;
-  }
-}
-
-.box-icon{
-  width: 40px;
-  height: 40px;
-  margin-left: 8px; 
 }
 
 
 
-/* Alumni Success Gateway - Xmas Edition */
-.alumni-verify-section {
-  position: relative;
-  background: linear-gradient(135deg, #000 50%, #007bff 100%);
-  padding: 80px 20px;   
-  overflow: hidden;
-}
-
-.text-highlight {
-  color: #00aaff;
-}
-
-.verify-box {
-  max-width: 700px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 10px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-
-.verify-box .form-control {
-  height: 60px;
-  font-size: 1.1rem;
-  color: #000;
-  border-radius: 50px 0 0 50px;
-}
-
-.verify-box .verify-btn {
-  background: #fff;
-  color: #000;
-  font-weight: 600;
-  padding: 0 30px;
-  border-radius: 50px;
-  border-top-left-radius: 50px;
-  transition: all 0.3s ease;
-}
-
-.verify-box .verify-btn:hover {
-  background: #007bff;
-  color: #fff;
-  transform: scale(1.05);
-}
-
-.result-placeholder {
-  background: rgba(255, 255, 255, 0.15);
-  font-size: 1.1rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Floating Xmas Decorations */
-.xmas-decor {
-  position: absolute;
-  bottom: 0;
-  right: 40px;
-  display: flex;
-  align-items: flex-end;
-  gap: 15px;
-}
-
-.xmas-tree {
-  width: 80px;
-  animation: float 6s ease-in-out infinite;
-}
-
-.gift-box {
-  width: 60px;
-  animation: float 5s ease-in-out infinite alternate;
-}
-
-/* Floating animation */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .verify-box {
-    border-radius: 20px;
-  }
-
-  .verify-box .form-control {
-    font-size: 1rem;
-  }
-
-  .xmas-decor {
-    position: relative;
-    justify-content: center;
-    margin-top: 20px;
-  }
-}
-
-.google-icon {
-    width: 100px;
-    height: 100px;
-}
 /* === GlobalTech: Index Page Styles End === */
+
+
+/* === GlobalTech: Login Page Styles Start === */
+.login-logo {
+    max-width: 120px;
+    display: block;
+    margin: 5% auto 0 auto;
+    /* centers horizontally */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.form-head {
+    margin-bottom: -60px;
+    margin-top: 90px;
+}
+
+.form-head h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 27.5px;
+    padding-top: 10px;
+}
+
+.form-head p {
+    color: #6c757d;
+    font-size: 13.5px;
+    text-align: center;
+}
+
+.login-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 27.5px;
+}
+
+.subtitle {
+    color: #6c757d;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 13.5px;
+}
+
+.login-footer {
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.051);
+}
