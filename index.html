@@ -59,13 +59,13 @@
                         <a class="nav-link" href="contact" data-testid="link-contact">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-2">
-                        <a class="nav-link" href="./pages/login.html" data-testid="button-login">
+                        <a class="nav-link" href="login.html" data-testid="button-login">
                             <button class="btn btn-outline-primary btn-sm">Login</button>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="register.html" data-testid="button-register">
-                            <button class="btn btn-primary btn-sm">Register Now</button>
+                            <button class="btn btn-primary btn-sm">Register</button>
                         </a>
                     </li>
                 </ul>
@@ -92,11 +92,11 @@
                 <div class="hero-overlay"></div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/images/cyber-defense.jpg" alt="Robotics">
+                <img src="./assets/images/abstract-cybersecurity-concept-design.jpg" alt="Robotics">
                 <div class="hero-overlay"></div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/images/pythonEssential.jpg" alt="Online learning student studying">
+                <img src="./assets/images/glasses-digital-tablet-desk.jpg" alt="Online learning student studying">
                 <div class="hero-overlay"></div>
             </div>
             <div class="carousel-item">
@@ -216,147 +216,260 @@
     </section>
 
 
-    <!-- Featured Courses -->
-    <section id="courses" class="section" data-testid="section-courses">
-        <div class="container">
-            <h2 class="section-title" data-testid="text-courses-title">Featured Courses</h2>
-            <p class="section-subtitle">Explore our most popular courses and start your learning journey today</p>
-
-            <div class="row g-4 mb-5">
-                <div class="col-md-6 col-lg-4" data-testid="course-1">
-                    <div class="course-card">
-                        <img src="./assets/images/code.jpg" alt="Full-Stack Web Development" class="course-img"
-                            data-testid="course-image-1">
-                        <div class="course-body">
-                            <h5 data-testid="course-title-1">Full-Stack Web Development</h5>
-                            <span class="course-badge" data-testid="course-level-1">Beginner to Advanced</span>
-                            <p class="mt-3 text-muted" data-testid="course-description-1">Master modern web development
-                                with HTML, CSS, JavaScript, React, Node.js and more.</p>
-                            <div class="d-flex justify-content-between align-items-center mt-3">
-                                <small class="text-muted" data-testid="course-duration-1">
-                                    <i class="fas fa-clock me-1"></i>6 months
-                                </small>
-                                <span class="course-price" data-testid="course-price-1">₦500,000</span>
-                            </div>
-                            <button class="btn btn-primary w-100 mt-3" data-testid="button-enroll-1">Enroll Now</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4" data-testid="course-2">
-                    <div class="course-card">
-                        <img src="./assets/images/Robotics.jpg" alt="AI and Machine Learning (AIML)" class="course-img"
-                            data-testid="course-image-2">
-                        <div class="course-body">
-                            <h5 data-testid="course-title-2">AI and Machine Learning (AIML)</h5>
-                            <span class="course-badge" data-testid="course-level-2">Intermediate</span>
-                            <p class="mt-3 text-muted" data-testid="course-description-2">Build intelligent applications
-                                with AI and machine learning techniques.</p>
-                            <div class="d-flex justify-content-between align-items-center mt-3">
-                                <small class="text-muted" data-testid="course-duration-2">
-                                    <i class="fas fa-clock me-1"></i>6 months
-                                </small>
-                                <span class="course-price" data-testid="course-price-2">₦1,400,000</span>
-                            </div>
-                            <button class="btn btn-primary w-100 mt-3" data-testid="button-enroll-2">Enroll Now</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4" data-testid="course-3">
-                    <div class="course-card">
-                        <img src="./assets/images/data.jpg" alt="Data Science & Analytics" class="course-img"
-                            data-testid="course-image-3">
-                        <div class="course-body">
-                            <h5 data-testid="course-title-3">Data Science & Analytics</h5>
-                            <span class="course-badge" data-testid="course-level-3">Intermediate to Advanced</span>
-                            <p class="mt-3 text-muted" data-testid="course-description-3">Master data analysis,
-                                visualization, and machine learning with Python.</p>
-                            <div class="d-flex justify-content-between align-items-center mt-3">
-                                <small class="text-muted" data-testid="course-duration-3">
-                                    <i class="fas fa-clock me-1"></i>6 months
-                                </small>
-                                <span class="course-price" data-testid="course-price-3">₦400,000</span>
-                            </div>
-                            <button class="btn btn-primary w-100 mt-3" data-testid="button-enroll-3">Enroll Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center">
-                <a href="courses.html"><button class="btn btn-outline-primary btn-lg"
-                        data-testid="button-view-all-courses">View All Courses</button></a>
-            </div>
+<!-- 🎄 Holiday Promotion Banner -->
+<section class="holiday-promo-section">
+  <div class="container">
+    <div class="promo-card">
+      <div class="promo-content">
+        <div class="promo-left">
+          <h2 class="promo-title">
+            <i class="fa-solid fa-tree me-2"></i>
+            <span class="highlight">GlobalTech Xmas Promo</span> <img src="./assets/images/box.png" alt="box" class="box-icon" />
+          </h2>
+          <p class="promo-description">
+            Enroll in any <strong>certified tech course</strong> this holiday season and
+            enjoy <br> a <strong>50% scholarship discount</strong> + a free
+            <strong>professional mentorship</strong> session.
+            <br><span class="offer-end">Offer ends December 31st!</span>
+          </p>
+          <a href="contacts.html"><button class="btn promo-btn">
+            Claim Discount <i class="fas fa-arrow-right ms-2"></i>
+          </button></a>
         </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="section bg-light" data-testid="section-testimonials">
-        <div class="container">
-            <h2 class="section-title" data-testid="text-testimonials-title">What Our Students Say</h2>
-            <p class="section-subtitle">Real success stories from our graduates</p>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4" data-testid="testimonial-1">
-                    <div class="testimonial-card">
-                        <div class="stars">
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="far fa-star star"></i>
-                        </div>
-                        <h5 data-testid="testimonial-name-1">Ayomide Tominiyi</h5>
-                        <span class="course-badge" data-testid="testimonial-course-1">Full-Stack Web Development</span>
-                        <p class="testimonial-text" data-testid="testimonial-text-1">"GlobalTech transformed my career!
-                            The instructors are world-class and the curriculum is up-to-date with industry standards. I
-                            landed a job at a top tech company within 2 months of graduation."</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4" data-testid="testimonial-2">
-                    <div class="testimonial-card">
-                        <div class="stars">
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star-half star"></i>
-                            <i class="far fa-star star"></i>
-                        </div>
-                        <h5 data-testid="testimonial-name-2">Oluwaseun Balogun</h5>
-                        <span class="course-badge" data-testid="testimonial-course-2">Mobile App Development</span>
-                        <p class="testimonial-text" data-testid="testimonial-text-2">"The hands-on projects and
-                            real-world experience I gained here were invaluable. I now freelance building mobile apps
-                            for clients worldwide. Best investment I ever made!"</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4" data-testid="testimonial-3">
-                    <div class="testimonial-card">
-                        <div class="stars">
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                            <i class="fas fa-star star"></i>
-                        </div>
-                        <h5 data-testid="testimonial-name-3">Onyinye Kalu</h5>
-                        <span class="course-badge" data-testid="testimonial-course-3">Data Science & Analytics</span>
-                        <p class="testimonial-text" data-testid="testimonial-text-3">"From zero to data scientist in 6
-                            months! The support from instructors and the learning community was amazing. I'm now working
-                            as a data analyst and loving every moment."</p>
-                    </div>
-                </div>
-            </div>
+        <div class="promo-right">
+          <img
+            src="./assets/images/xmas-tree.png"
+            alt="Xmas Tree and Gifts"
+            class="promo-image"
+          />
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Featured Courses -->
+<section id="courses" class="section" data-testid="section-courses">
+<div class="container">
+<h2 class="section-title" data-testid="text-courses-title">Featured Courses</h2>
+<p class="section-subtitle">Explore our most popular courses and start your learning journey today</p>
+<div class="row">
+<!-- Course Card 1 -->
+<div class="col-sm-6 col-md-4 mb-5" data-testid="course-1">
+<div class="course-card">
+<img src="./assets/images/code.jpg" alt="Full-Stack Web Development" class="course-img">
+<div class="course-body">
+<h5>Full-Stack Web Development</h5>
+<span class="course-badge">Beginner to Advanced</span>
+<p class="text-muted mt-2">Master modern web development with HTML, CSS, JavaScript, React, Node.js and more.</p>
+<div class="d-flex justify-content-between align-items-center mt-2">
+<small class="text-muted"><i class="fas fa-clock me-1"></i>6 months</small>
+<span class="course-price">₦500,000</span>
+</div>
+<button class="btn btn-primary w-100 mt-3 page-link-btn" data-href="courses.html">Enroll Now</button>
+</div>
+</div>
+</div>
+<!-- Course Card 2 -->
+<div class="col-sm-6 col-md-4 mb-5" data-testid="course-2">
+<div class="course-card">
+<img src="./assets/images/Robotics.jpg" alt="AI and Machine Learning" class="course-img">
+<div class="course-body">
+<h5>AI and Machine Learning (AIML)</h5>
+<span class="course-badge">Intermediate</span>
+<p class="text-muted mt-2">Build intelligent applications with AI and machine learning techniques.</p>
+<div class="d-flex justify-content-between align-items-center mt-2">
+<small class="text-muted"><i class="fas fa-clock me-1"></i>6 months</small>
+<span class="course-price">₦1,400,000</span>
+</div>
+<button class="btn btn-primary w-100 mt-3 page-link-btn" data-href="courses.html">Enroll Now</button>
+</div>
+</div>
+</div>
+<!-- Course Card 3 -->
+<div class="col-sm-6 col-md-4 mb-5" data-testid="course-3">
+<div class="course-card">
+<img src="./assets/images/data.jpg" alt="Data Science & Analytics" class="course-img">
+<div class="course-body">
+<h5>Data Science & Analytics</h5>
+<span class="course-badge">Intermediate to Advanced</span>
+<p class="text-muted mt-2">Master data analysis, visualization, and machine learning with Python.</p>
+<div class="d-flex justify-content-between align-items-center mt-2">
+<small class="text-muted"><i class="fas fa-clock me-1"></i>6 months</small>
+<span class="course-price">₦400,000</span>
+</div>
+<button class="btn btn-primary w-100 mt-3 page-link-btn" data-href="courses.html">Enroll Now</button>
+</div>
+</div>
+</div>
+<!-- Course Card 4 -->
+<div class="col-sm-6 col-md-4 mb-5" data-testid="course-4">
+<div class="course-card">
+<img src="./assets/images/python1.jpg" alt="Python Programming Masterclass" class="course-img">
+<div class="course-body">
+<h5>Python Programming Masterclass</h5>
+<span class="course-badge">Beginner to Advanced</span>
+<p class="text-muted mt-2">Master Python programming with hands-on projects and real-world applications.</p>
+<div class="d-flex justify-content-between align-items-center mt-2">
+<small class="text-muted"><i class="fas fa-clock me-1"></i>6 months</small>
+<span class="course-price">₦600,000</span>
+</div>
+<button class="btn btn-primary w-100 mt-3 page-link-btn" data-href="courses.html">Enroll Now</button>
+</div>
+</div>
+</div>
+<!-- Course Card 5 -->
+<div class="col-sm-6 col-md-4 mb-5" data-testid="course-5">
+<div class="course-card">
+<img src="./assets/images/ui-ux.jpg" alt="UI/UX Design" class="course-img">
+<div class="course-body">
+<h5>UI/UX Design</h5>
+<span class="course-badge">Intermediate</span>
+<p class="text-muted mt-2">Design user-friendly interfaces and experiences for web and mobile applications.</p>
+<div class="d-flex justify-content-between align-items-center mt-2">
+<small class="text-muted"><i class="fas fa-clock me-1"></i>6 months</small>
+<span class="course-price">₦200,000</span>
+</div>
+<button class="btn btn-primary w-100 mt-3 page-link-btn" data-href="courses.html">Enroll Now</button>
+</div>
+</div>
+</div>
+<!-- Course Card 6 -->
+<div class="col-sm-6 col-md-4 mb-5" data-testid="course-6">
+<div class="course-card">
+<img src="./assets/images/cyber-sec.jpg" alt="Cybersecurity" class="course-img">
+<div class="course-body">
+<h5>Cybersecurity</h5>
+<span class="course-badge">Intermediate to Advanced</span>
+<p class="text-muted mt-2">Learn to protect systems, networks, and programs from digital attacks.</p>
+<div class="d-flex justify-content-between align-items-center mt-2">
+<small class="text-muted"><i class="fas fa-clock me-1"></i>6 months</small>
+<span class="course-price">₦1,400,000</span>
+</div>
+<button class="btn btn-primary w-100 mt-3 page-link-btn" data-href="courses.html">Enroll Now</button>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-2">
+<a href="courses.html" class="page-link">
+<button class="btn btn-outline-primary btn-lg">View All Courses</button>
+</a>
+</div>
+</div>
+</section>
+
+
+
+    <!-- Alumni Success Gateway - Xmas Edition -->
+<section class="alumni-verify-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-white">
+         Verify Our <span class="text-highlight">Certified Alumni</span>
+      </h2>
+      <p class="text-light">
+        Search our database by name or certificate ID to verify genuine GlobalTech graduates this holiday season 
+      </p>
+    </div>
+
+    <!-- Search Box -->
+    <div class="verify-box mx-auto shadow-lg">
+      <div class="input-group">
+        <span class="input-group-text bg-white border-0">
+          <i class="fa-solid fa-gift text-primary"></i>
+        </span>
+        <input
+          type="text"
+          id="alumniSearchInput"
+          class="form-control border-0"
+          placeholder="Enter full name or certificate ID..."
+        />
+        <button class="btn verify-btn" type="button" id="verifyButton">
+          <i class="fas fa-search me-2"></i> Verify
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Area -->
+    <div id="resultsContainer" class="text-center mt-4">
+      <p class="result-placeholder text-light py-3 px-4 rounded-3">
+            Enter a name or ID above to check certification details.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Testimonials -->
+<section class="section bg-light" data-testid="section-testimonials">
+  <div class="container">
+    <h2 class="section-title text-center mb-4" data-testid="text-testimonials-title">What Our Students Say</h2>
+    <p class="section-subtitle text-center mb-5">Success stories from our graduates</p>
+
+    <div class="row g-3">
+      <!-- Testimonial 1 -->
+      <div class="col-sm-6 col-md-4 mb-3" data-testid="testimonial-1">
+        <div class="testimonial-card">
+          <div class="stars mb-2">
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="far fa-star star"></i>
+          </div>
+          <h6 class="mb-1" data-testid="testimonial-name-1">Ayomide Tominiyi</h6>
+          <span class="course-badge">Full-Stack Web Dev</span>
+          <p class="testimonial-text mt-2">"GlobalTech helped me land a tech job fast. Great instructors and curriculum!"</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-sm-6 col-md-4 mb-3" data-testid="testimonial-2">
+        <div class="testimonial-card">
+          <div class="stars mb-2">
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star-half-alt star"></i>
+            <i class="far fa-star star"></i>
+          </div>
+          <h6 class="mb-1" data-testid="testimonial-name-2">Oluwaseun Balogun</h6>
+          <span class="course-badge">Mobile App Dev</span>
+          <p class="testimonial-text mt-2">"I now freelance globally. The hands-on training was worth every moment!"</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-sm-6 col-md-4 mb-3" data-testid="testimonial-3">
+        <div class="testimonial-card">
+          <div class="stars mb-2">
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star"></i>
+          </div>
+          <h6 class="mb-1" data-testid="testimonial-name-3">Onyinye Kalu</h6>
+          <span class="course-badge">Data Science</span>
+          <p class="testimonial-text mt-2">"I became a data analyst in 6 months. The support was incredible!"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
     <!-- Online Classes Banner -->
     <section class="online-classes-banner" data-testid="section-online-classes">
         <div class="container">
             <div class="video-icon">
-                <i class="fas fa-video"></i>
+                <img src="./assets/images/google-meet.png" alt="Google Meet Icon" class="google-icon" />
             </div>
             <h2 data-testid="text-online-title">Join Our Online Classes</h2>
             <p data-testid="text-online-description">
@@ -427,12 +540,6 @@
         </div>
     </footer>
 
-
-
-
-
-
-
     <!-- Scroll to Top Button -->
     <button class="scroll-top-btn" id="scrollTopBtn" data-testid="button-scroll-top">
         <i class="fas fa-chevron-up"></i>
@@ -445,19 +552,21 @@
     <script src="assets/js/main.js"></script>
 
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/698eaf/1j8tc6q7i';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6904cdaab4f67b194aa68eaf/1j8tc6q7i';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script codes-->
+   
 
 </body>
 
