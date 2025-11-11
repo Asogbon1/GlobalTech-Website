@@ -30,6 +30,7 @@ body {
     color: #212529 !important;
 }
 
+
 .logo-icon {
     width: 180px;
     height: 50px;
@@ -364,6 +365,7 @@ body {
     padding: 4rem 0;
     text-align: center;
     font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    margin-bottom: -50px;
 }
 
 .online-classes-banner .video-icon {
@@ -402,7 +404,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: white;
+    background-color: #f8f9fa;
     color: black;
     padding: 3rem 0 1.5rem;
 }
@@ -457,14 +459,16 @@ footer ul li {
 
 footer .social-links a,
 footer .d-flex.gap-3 a {
-  color: #007bff; /* Bootstrap blue */
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+    color: #007bff;
+    /* Bootstrap blue */
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
 footer .social-links a:hover,
 footer .d-flex.gap-3 a:hover {
-  color: #0056b3; /* darker blue on hover */
+    color: #0056b3;
+    /* darker blue on hover */
 }
 
 .star {
@@ -639,3 +643,58 @@ iframe[src*="tawk.to"] {
 
 
 /* === GlobalTech: Index Page Styles End === */
+
+
+/* === GlobalTech: Login Page Styles Start === */
+.login-logo {
+    max-width: 120px;
+    display: block;
+    margin: 5% auto 0 auto;
+    /* centers horizontally */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.form-head {
+    margin-bottom: -60px;
+    margin-top: 90px;
+}
+
+.form-head h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 27.5px;
+    padding-top: 10px;
+}
+
+.form-head p {
+    color: #6c757d;
+    font-size: 13.5px;
+    text-align: center;
+}
+
+.login-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 27.5px;
+}
+
+.subtitle {
+    color: #6c757d;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 13.5px;
+}
+
+.login-footer {
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.051);
+}
